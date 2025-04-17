@@ -1,0 +1,28 @@
+{
+    "name": "rebelscan/http",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "RebelScan\\Http\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azat Akmyradov",
+            "email": "azakmyradov@rklesolutions.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RebelScan\\Http\\Providers\\SOAPServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "saloonphp/saloon": "^3.0",
+        "saloonphp/xml-wrangler": "^1.4",
+        "saloonphp/laravel-http-sender": "^3.1",
+        "saloonphp/laravel-plugin": "^3.5"
+    }
+}
